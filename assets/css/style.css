@@ -1,0 +1,254 @@
+
+/* Clse 8 animaciones y transformaciones */
+
+
+input:focus {
+	width: 400px; height: 25px;
+	font-size: 16px;
+}
+
+/* Grid Clase 7 */
+#grilla {
+	display:grid;
+	grid-template-areas:
+	"menu header header"
+	"menu productos publicidad"
+	"footer footer footer";
+	grid-template-rows: 150px 200px 25px; 
+	grid-template-columns: 200px 300px 200px;
+}
+
+#grillaArriendo {
+	display:grid;
+	grid-template-areas:
+	"menu header header"
+	"menu productos servicios"
+	"footer footer footer";
+	grid-template-rows: 125px 500px 50px;
+	grid-template-columns: 100px 450px 450px;
+	align-self: center; 
+	align-content: space-around;
+}
+#grillaArri {
+	display:grid;
+	grid-template-areas:
+	"menu header header"
+	"menu productos publicidad"
+	"footer footer footer";
+	grid-template-rows: 100px 200px 50px; 
+}
+.border {
+border-radius: 5px
+}
+
+header {
+grid-area: header;
+display: inline-block;
+font-size: 18px;
+font-family: Roboto bold;
+background-color: #F9E8E0;
+text-align: center;
+color: black;
+font-size: 32px;
+
+}
+
+footer {
+	grid-area: footer;
+	text-align: justify;
+}
+
+section#herramientas {
+	grid-area: productos;
+	display: inline-block;
+font-size: 18px;
+font-family: Roboto bold;
+background-color: #F9E8E0;
+text-align: center;
+color: black;
+font-size: 32px;
+}
+
+section#maquinas {
+	grid-area: servicios;
+	display: inline-block;
+font-size: 18px;
+font-family: Roboto bold;
+background-color: #DE605F;
+text-align: center;
+color: black;
+font-size: 32px;
+}
+
+nav {
+	grid-area: menu;
+}
+
+aside {
+	grid-area: publicidad;
+}
+
+/* modelbox */
+
+section#model {
+display: inline-block;
+font-size: 18px;
+font-family: Roboto bold;
+background-color: grey;
+text-align: center;
+color: black;
+font-size: 32px;
+}
+
+divs.sticky {
+	position: -webkit;-sticky;
+	position: sticky;
+	
+}
+ 
+.flexContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	width: 800px;
+	flex-wrap: wrap;
+	border: solid black 1px;
+	border-radius: 5px;
+	
+
+
+}
+.flexColor {
+	background-color: #DBC5D0;
+
+}
+
+.container {
+display: flex;
+border: 1px;
+justify-content: space-around;
+flex direction: start;
+
+}
+*/
+/*
+
+body {
+	font: 24px helvetica;
+}
+
+Clases previas
+#main {
+	min-height: 100px
+	margin: 0px;
+	padding: 0px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	font-size: 48x;
+	justify-content: center;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	margin: 4px;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 	20px;
+	background: white;
+	flex: 1 6 20px;
+	-webkit-flex: 1 6 20%;
+	-webkit-order: 1;
+	order: 1;
+
+	}
+.navegador	{
+	justify-content: center; 	
+}
+
+
+h5 {
+	font-size: 12px;
+}
+
+p {
+font-size: 18px;
+font-family: arial;
+}
+
+li {
+	display: inline-block;
+}
+
+divs.sticky {
+	position: -webkit;-sticky;
+	position: sticky;
+	
+}
+
+/* Clase 2 - class e ID - intro a css
+.puntoPrincipal {
+	color: red;
+	background-color: green;
+}
+
+.primera {
+	color: green;
+}
+/* ol li ul li {
+	color; red
+}
+COMENTARIOS: ;
+
+
+.lista2 {
+	color:rgb(255,65,80);
+}
+
+
+ol {
+	list-style: upper-latin;
+
+}
+
+ul {
+	list-style: none;
+	list-style: url("https:/www.gthtg.cl");
+}
+
+#vineta {
+	font-size:20px;
+}
+
+#prueba	{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Muli';
+	text-align: left;
+	text-transform:  capitalize;
+	text-transform:  uppercase;
+	line-height: 1.5;
+	text-decoration: line-through;
+	letter-spacing: 5px;
+	word-spacing: 30px;
+	background-color: yellow;
+}
+
+
+
+#parrafo	{
+	font-style: 'Muli';
+	font-size: 10px;
+	word-spacing: 5px;
+}
+
+
+
+/* 
+CLASSS: Uso Masivo
+ID: 1 solo uno, especifico;
+*/

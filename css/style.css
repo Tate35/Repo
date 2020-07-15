@@ -1,0 +1,17 @@
+.containerVentas{
+	background-color: rgb(211,251,171);
+	padding: 15px;
+	border-radius: 25px;
+	align-content: center;
+}
+
+.containerArriendo{
+	background-color: rgb(196,207,5);
+	padding: 15px;
+	border-radius: 25px;
+	align-content: center;
+}
+
+@media (min-width: 576px) {
+	
+}

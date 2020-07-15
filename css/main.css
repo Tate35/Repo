@@ -1,0 +1,24 @@
+h1 {
+  font: 32px "roboto";
+  color: black; }
+
+div {
+  font: 16px "roboto";
+  text-align: center;
+  width: 100%;
+  padding: 5px 5px 5px 5px; }
+
+h5 {
+  font: 28px "roboto"; }
+
+p {
+  color: black; }
+
+.salaVentas {
+  background-color: green;
+  color: white;
+  align-content: center;
+  border-radius: 15px; }
+
+.textoLocal {
+  font-size: 12px; }

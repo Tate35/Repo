@@ -1,0 +1,73 @@
+$titulo: 32px "roboto";
+$parrafo: 16px "roboto";
+$Align: center;
+$color: black;
+$bgcH1: red;
+$padding5: 5px 5px 5px 5px;
+$h5card: 28px "roboto";
+$estadolocal: abierto;
+$textolocal:6px;
+$borde: 15px;
+$colorfondo: rgb(255,107,107);
+$transparencia:50%;
+
+h1 {
+    font: $titulo;
+    color:$color;
+}
+
+div {
+    font: $parrafo;
+    $color: $bgcH1;
+    text-align: $Align;
+    width: 100%;
+    padding: $padding5;
+}
+
+h5 {
+font: $h5card;
+}
+
+$animal: gato;
+
+p {
+    @if $animal == camello {
+        color:blue;
+    }
+    @else if $animal == perro {
+        color: red;
+    }
+    @else if $animal == caballo {
+        color: green;
+    }
+    @else {
+        color:black;
+    }
+}
+.salaVentas {
+    @if $estadolocal == abierto {
+        background-color: green;
+        color: white;
+        align-content: $Align;
+        border-radius: $borde;
+    }
+    @else if $estadolocal == cerrado {
+        background-color: red;
+        color: white;
+        align-content: $Align;
+    }
+    @else {
+        background-color: black;
+        color: white;
+        align-content: $Align;
+        border-radius: $borde;
+    }
+
+}
+
+.textoLocal {
+    font-size: 12px;
+}
+
+
+
